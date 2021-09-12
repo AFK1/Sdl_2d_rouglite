@@ -51,7 +51,7 @@ int main (int arhc, char ** argv) {
     SDL_RenderClear(ren);
     SDL_SetRenderDrawColor(ren, 0xFF, 0xFF, 0xFF, 0xFF);
 
-    SDL_Rect rect1 = {10, 10, 50, 50};
+    SDL_Rect rect1 = {10, 10, 50, 50}; 
     SDL_RenderFillRect(ren, &rect1);
 
     SDL_Rect rect2 = {70, 10, 50, 50};
